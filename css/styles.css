@@ -19,6 +19,19 @@ background-color: var(--page-background-color);
 color: var(--primary-text-color);
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+margin: 0;
+}
+
+ul, ol {
+margin: 0;
+padding: 0;
+}
+
+/* ------------Header------------- */
+.header {
+padding-top: 24px;
+}
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -27,6 +40,8 @@ line-height: 1.17;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-top: 24px;
+
 color: var(--accent-color);
 }
 .link {
@@ -37,6 +52,7 @@ list-style: none;
 }
 
 .header .accent {
+
 color: var(--title-text-color);
 }
 
@@ -67,16 +83,33 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 
+.container {
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+
+/* ---------Hero---------- */
 .hero {
+text-align: center;
 background-color: var(--title-text-color);
+
 }
 
 h1 {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-text-align: center;
+
+
+
 letter-spacing: 0.02em;
+margin-top: 0px;
+margin-bottom: 48px;
+
+
 color: var(--page-background-color);
 }
 
@@ -86,6 +119,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+
+border-radius: 4px;
+padding: 16px 32px;
+text-align: center;
+
+
 color: var(--page-background-color);
 background: var(--accent-color);
 }
@@ -98,12 +137,17 @@ background-color: #404BBF;
 .pointer {
 cursor: pointer;
 }
+/* ---------Our principles---------------- */
+
 
 .principles-title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+
+margin-bottom: 8px;
+
 color: var(--title-text-color);
 }
 .principles-desc{
@@ -112,6 +156,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+/* --------what are we doing------------------------ */
 .subject{
 font-weight: 700;
 font-size: 36px;
@@ -119,6 +164,9 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+
+margin-bottom: 72px;
+
 color: var(--title-text-color);
 }
 .name{
@@ -127,6 +175,9 @@ font-size: 20px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
+
+margin-bottom: 8px;
+
 color: var(--title-text-color);
 }
 .specialty{
