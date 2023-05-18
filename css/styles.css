@@ -28,6 +28,15 @@ padding: 0;
 margin: 0;
 } 
 
+.section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.list {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
 /* ------------Header------------- */
 .page-header-container {
 display: flex;
@@ -133,14 +142,11 @@ h1 {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-
-
-
+text-align: center;
 letter-spacing: 0.02em;
 margin-top: 0px;
 margin-bottom: 48px;
 max-width: 496px;
-
 
 color: var(--page-background-color);
 }
@@ -174,7 +180,9 @@ background-color: #404BBF;
 cursor: pointer;
 }
 /* ---------Our principles---------------- */
-
+.principles {
+background-color: aquamarine;
+}
 
 .principles-title{
 font-weight: 500;
@@ -193,6 +201,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /* --------what are we doing------------------------ */
+.doing{
+background-color: tomato;
+
+}
 .subject{
 font-weight: 700;
 font-size: 36px;
@@ -205,15 +217,21 @@ margin-bottom: 72px;
 
 color: var(--title-text-color);
 }
+.employees-card {
+flex-basis: calc((100%-72px) /4 ); 
+}
+
+/* -------------Our team----------------- */
+.team {
+background-color: #F4F4FD;
+}
 .name{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
-
 margin-bottom: 8px;
-
 color: var(--title-text-color);
 }
 .specialty{
@@ -221,9 +239,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
-.team {
-background-color: #F4F4FD;
 }
 
 .team-name {
