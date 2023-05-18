@@ -28,6 +28,10 @@ padding: 0;
 margin: 0;
 } 
 
+img {
+    display: block;
+}
+
 .section {
 padding-top: 120px;
 padding-bottom: 120px;
@@ -78,6 +82,8 @@ list-style: none;
 .header .accent {
 color: var(--title-text-color);
 }
+
+
 
 .nav-list {
 font-weight: 500;
