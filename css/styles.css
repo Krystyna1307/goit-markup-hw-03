@@ -38,7 +38,6 @@ padding-bottom: 120px;
 }
 .list {
 display: flex;
-
 gap: 24px;
 }
 /* ------------HEADER------------- */
@@ -207,9 +206,6 @@ letter-spacing: 0.02em;
 
 display: flex;
 }
-/* .container-list{
-display: flex;
-} */
 
 
 /* --------what are we doing------------------------ */
@@ -227,8 +223,9 @@ margin-bottom: 72px;
 color: var(--title-text-color);
 }
 .employees-card {
-flex-basis: calc((100%-72px) /4 ); 
+flex-basis: calc((100%-48px) /3 ); 
 }
+
 
 /* -------------Our team----------------- */
 .team {
@@ -252,7 +249,9 @@ letter-spacing: 0.02em;
 
 .team-name {
 background-color: #FFFFFF;
+flex-basis: calc((100%-72px) /4 ); 
 }
+
 /*---------------Footer--------------*/
 
 .footer-logo {
