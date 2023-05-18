@@ -306,8 +306,9 @@ background-color: #F4F4FD;
 padding: 12px 24px;
 border: 1px solid var(--btn-portfolio);
 border-radius: 4px; 
-
 }
+
+
 .modal-btn:hover,
 .modal-btn:focus {
 color: #FFFFFF;
@@ -338,4 +339,9 @@ padding: 96px 0 120px;
 justify-content: center;
 gap: 24px; 
 margin-bottom: 72px;
+}
+
+.portfolio-page {
+flex-wrap: wrap; 
+row-gap: 48px; 
 }
