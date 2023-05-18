@@ -91,6 +91,16 @@ margin-right: 40px;
 }
 
 
+.address-list .item:not(:last-child) {
+    margin-right: 40px;
+}
+/* .address-list .item + .item {
+margin-left: 40px;
+
+} */
+
+
+
 .list .link:hover,
 .list .link:focus {
 color: #404bbf;   
@@ -107,9 +117,9 @@ display: flex;
 
 }
 
-.address-list .item + .item {
+/* .address-list .item + .item {
 margin-left: 40px;
-}
+} */
 
 .tel {
 font-family: 'Roboto', sans-serif;
