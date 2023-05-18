@@ -3,6 +3,7 @@
 --title-text-color: #2E2F42;
 --accent-color: #4D5AE5;
 --page-background-color: #FFFFFF;
+--btn-portfolio: #E7E9FC;
 }
 
 ul{
@@ -57,7 +58,7 @@ align-items: center;
 
 .header {
 padding-top: 24px;
-border-bottom: 1px solid #e7e9fc;
+border-bottom: 1px solid var(--btn-portfolio);
 }
 
 .logo {
@@ -302,11 +303,16 @@ cursor: pointer;
 color: var(--accent-color);
 background-color: #F4F4FD;
 
+padding: 12px 24px;
+border: 1px solid var(--btn-portfolio);
+border-radius: 4px; 
+
 }
 .modal-btn:hover,
 .modal-btn:focus {
 color: #FFFFFF;
 background-color: #404BBF;
+border: 1px solid transparent;
 }
 
 
