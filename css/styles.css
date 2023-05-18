@@ -235,7 +235,6 @@ background-color: #F4F4FD;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-text-align: center;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
 color: var(--title-text-color);
@@ -260,9 +259,19 @@ text-align: center;
 
 /*---------------Footer--------------*/
 
-.footer-logo {
+.footer-logo-page{
 background-color: var(--title-text-color);
+padding: 100px 0;
+}
+
+.footer-logo {
 color: var(--accent-color);
+display: inline-block;
+margin-bottom: 16px; 
+}
+
+.footer-logo .accent {
+color: #F4F4FD;
 }
 
 .footer-text {
@@ -270,15 +279,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: #F4F4FD;
+max-width: 264px;
 }
 
-.footer-logo .accent {
-color: #F4F4FD;
-}
-
-.footer-logo-page{
-background-color: var(--title-text-color);
-}
 
 /*------------Portfolio--------*/
 
