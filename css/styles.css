@@ -94,6 +94,8 @@ margin: 0 auto;
 /* ---------Hero---------- */
 .hero {
 text-align: center;
+
+padding-top: 188px;
 background-color: var(--title-text-color);
 
 }
@@ -108,6 +110,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 margin-top: 0px;
 margin-bottom: 48px;
+max-width: 496px;
 
 
 color: var(--page-background-color);
@@ -123,6 +126,10 @@ letter-spacing: 0.04em;
 border-radius: 4px;
 padding: 16px 32px;
 text-align: center;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none; 
 
 
 color: var(--page-background-color);
