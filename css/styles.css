@@ -221,6 +221,9 @@ display: flex;
 
 
 /* --------what are we doing------------------------ */
+.doing-section{
+padding-bottom: 120px;
+}
 .doing {
 padding-top: 0;
 }
